@@ -1,0 +1,57 @@
+/* 
+
+Project Name: Cookie Monster 
+Client: Cookie Monster
+Author: Chris Castiglione | www.twitter.com/castig 
+Developed @ General Assembly in NYC
+
+*/
+
+body {
+	/* set up a background image */
+	
+	
+	/* the follow is the code to have the image display as a full page */
+	background: #fff url(../images/Green-Nature-And-Beauty-Sky-1200x750.jpg) no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: #F5A9F2;
+	font: 75% arial, georgia; /*Q:Just wondering whats the 75% for? lol*/
+	text-align: right;
+}
+
+a:link {
+	font-weight: bold;   /*Q:Why does the link take the colour of a:visited instead of a:link?*/
+	text-decoration: none;
+	color: #A901DB;
+	}
+a:visited {
+	font-weight: bold;   /*Q:How come "bold" doesn't seem to show?*/
+	text-decoration: none;
+	color: #FE2EF7;
+	}
+a:hover, a:focus, a:active {
+		text-decoration: underline;
+		color: #4C0B5F;
+	}
+#container { 
+		padding-top: 15px;
+		padding-left: 15px;
+		}
+
+#header1 {
+	font-style: italic;
+	/*font-weight: bold;*/
+	font-size: 15px;
+	color: #B404AE; 
+	}
+
+#footer {
+	background: rgba(255,255,255,0.3);
+}
+
+
