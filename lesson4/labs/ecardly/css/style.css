@@ -26,5 +26,108 @@ Developer @GA in NYC
 	clear: both;
 }
 
+.alignright {
+     float: right; 
+     padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+     float: left; 
+     padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+/*=========================
+BASE STYLES
+=========================*/
+
+h1.skm {
+  width: 213px;
+  height: 213px;
+  background: url(../images/logo.png);
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+h2{ font-size: 20px;
+     font-family: arial,serif, times;
+     padding-top: 20px;}
+
+h3{ font-size: 12px;
+     text-decoration: bold;
+     font-family: arial,serif, times;
+     padding:0px;}
+
+header { background: url(../images/background.jpg) repeat-x}
+
+#container {   padding: 10px;
+               background: #d6d6d6;
+               margin: auto;
+               width: 940px;}
+
+#main { width:640px;
+          background: #fff;
+          padding-top:0px;
+          padding-left: 19px;
+          padding-right: 19px;
+          padding-bottom: 19px;}
+
+ body{ background:#d6d6d6;
+          color:#000000;
+          font-size: 12px;
+          font-family: arial,serif, times;
+     }
+
+br { line-height: 12px;}
 
 
+hr { border-style: solid;
+     border-width: 1px;
+     }
+
+hr.dotted{ border-style: dotted;
+          border-width: 1px;}
+
+ #sidebar {
+   background: #fff;
+   padding:19px; 
+   float: right;             
+}
+
+footer{ padding-top: 20px;}
+
+a:link    {color:#cc6633;
+               font-weight: bold;
+               text-decoration: none;}
+a:visited {color:orange;
+               text-decoration: none;}
+a:hover   {color:green   ;
+               font-style: italic;
+               text-decoration: none;}
+a:active  {color:orange;
+               text-decoration: none;}
+
+ a:link.uppercase    {color:#cc6633;
+               font-weight: bold;
+               text-decoration: none;
+               text-transform: uppercase;}
+
+a:visited {color:orange;
+               text-decoration: none;}
+a:hover   {color:green   ;
+               font-style: italic;
+               text-decoration: none;}
+a:active  {color:orange;
+               text-decoration: none;}
+
+ a:link.sidebar   {color:#000000;
+               font-weight: bold;
+               text-decoration: none;
+               }
+
+a:visited {color:orange;
+               text-decoration: none;}
+a:hover   {color:green   ;
+               font-style: italic;
+               text-decoration: none;}
+a:active  {color:orange;
+               text-decoration: none;}
